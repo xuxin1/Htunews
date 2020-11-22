@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 
 def mail(news):   #发送邮件函数
     my_sender = '734532469@qq.com'  # 发件人邮箱账号
-    my_pass = 'cdceqknkqsypbedi'  # 发件人邮箱密码
+    my_pass = 'password'  # 发件人邮箱密码
     my_user = '201356257@qq.com'  # 收件人邮箱账号，我这边发送给自己
 
     ret = True
