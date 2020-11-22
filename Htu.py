@@ -51,8 +51,8 @@ def datalist():  # 获取通知列表
     data = askurl("https://www.htu.edu.cn/8955/list.htm")
 
     jiexi = BeautifulSoup(data, "html.parser")  # bs数据解析  网页数据命名为 jiexi
-    yuanshi_shuju = []  # 上一次数据
-    xin_shuju = []
+    yuanshi_shuju = []  
+
 
     for i in range(2, 10):  # 匹配8条数据
         i = str(i)
